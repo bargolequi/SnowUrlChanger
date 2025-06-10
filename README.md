@@ -14,3 +14,8 @@ A simple Firefox extension that redirects to a ServiceNow incident page based on
 1. Clone this repository or download the ZIP file.
    ```bash
    git clone https://github/yourusername/service-now-redirector.git
+2. Open link in browser:
+   ```bash
+   about:debugging#/runtime/this-firefox
+3. Select the * manifest.json * file from the extension folder.
+4. The icon should appear in browser. You can make it always visable if you want to.
