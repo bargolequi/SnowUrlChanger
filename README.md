@@ -17,5 +17,5 @@ A simple Firefox extension that redirects to a ServiceNow incident page based on
 2. Open link in browser:
    ```bash
    about:debugging#/runtime/this-firefox
-3. Select the * manifest.json * file from the extension folder.
+3. Select the `manifest.json` file from the extension folder.
 4. The icon should appear in browser. You can make it always visable if you want to.
