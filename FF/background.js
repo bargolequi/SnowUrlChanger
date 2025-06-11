@@ -18,7 +18,7 @@ browser.browserAction.onClicked.addListener(async (tab) => {
     try {
         urlObj = new URL(tab.url);
     } catch (e) {
-        console.error("Invalid URL:", urlString);
+        console.error("Invalid URL:", tab.url);
         return;
     }
     if (urlObj.origin === ORIGIN_NAME && urlObj.pathname === PATH_NAME) {
